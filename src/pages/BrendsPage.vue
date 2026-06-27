@@ -9,10 +9,12 @@ const loading = ref(true)
 
 onMounted(async () => {
   try {
-    const res = await fetch('/src/data/brands.json')
+    const res = await fetch('public/data/brands.json')
+    if (!res.ok) throw new Error(`HTTP ${res.status}`)
     allBrands.value = await res.json()
+    console.log('✅ Загружено брендов:', allBrands.value.length)
   } catch (e) {
-    console.error('Не удалось загрузить brands.json', e)
+    console.error('❌ Не удалось загрузить brands.json', e)
   } finally {
     loading.value = false
   }
@@ -71,6 +73,8 @@ button {
 }
 
 a {
+  color: white;
+  outline: none;
   text-decoration: none;
   list-style: none;
 }
@@ -197,7 +201,6 @@ a {
   transform: scale(0.99);
 }
 
-/* ───── Tablet (≤1024px) ───── */
 @media (max-width: 1024px) {
   .brands-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -207,7 +210,6 @@ a {
   }
 }
 
-/* ───── Mobile (≤768px) ───── */
 @media (max-width: 768px) {
   .brands-page {
     padding-bottom: 40px;
@@ -239,7 +241,6 @@ a {
   }
 }
 
-/* ───── Small mobile (≤480px) ───── */
 @media (max-width: 480px) {
   .page-title {
     font-size: 22px;

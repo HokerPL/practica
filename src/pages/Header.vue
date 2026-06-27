@@ -106,7 +106,7 @@ function submitCallForm() {
     <div class="container">
       <div class="search-blok">
         <div class="logo">
-          <a href="/">
+          <a href="/practica/">
             <img src="/images/header/logo.png" alt="">
           </a>
         </div>
