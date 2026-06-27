@@ -1,0 +1,22 @@
+[
+  { "id": 1,  "name": "Abena",           "logo": "/images/brend-img/Group 1314929.png" },
+  { "id": 2,  "name": "Aeroxon",         "logo": "/images/brend-img/Group 1314930.png" },
+  { "id": 3,  "name": "Argus",           "logo": "/images/brend-img/Group 1314931.png" },
+  { "id": 4,  "name": "B.Well",          "logo": "/images/brend-img/Group 1314932.png" },
+  { "id": 5,  "name": "Axion",           "logo": "/images/brend-img/Group 1314933.png" },
+  { "id": 6,  "name": "Bella",           "logo": "/images/brend-img/Group 1314934.png" },
+  { "id": 7,  "name": "Benovy",          "logo": "/images/brend-img/Group 1314935.png" },
+  { "id": 8,  "name": "Bionet",          "logo": "/images/brend-img/Group 1314936.png" },
+  { "id": 9,  "name": "Borer Chemie",    "logo": "/images/brend-img/Group 1314937.png" },
+  { "id": 10, "name": "C-K DENTAL",      "logo": "/images/brend-img/Group 1314938.png" },
+  { "id": 11, "name": "Captain Fawcett", "logo": "/images/brend-img/Group 1314939.png" },
+  { "id": 12, "name": "Chemis",          "logo": "/images/brend-img/Group 1314940.png" },
+  { "id": 13, "name": "Codyson",         "logo": "/images/brend-img/Group 1314941.png" },
+  { "id": 14, "name": "Crosstex",        "logo": "/images/brend-img/Group 1314942.png" },
+  { "id": 15, "name": "Deadex",          "logo": "/images/brend-img/Group 1314943.png" },
+  { "id": 16, "name": "Dental Combo",    "logo": "/images/brend-img/Group 1314944.png" },
+  { "id": 17, "name": "Dexcowin",        "logo": "/images/brend-img/Group 1314945.png" },
+  { "id": 18, "name": "DigiMed",         "logo": "/images/brend-img/Group 1314946.png" },
+  { "id": 19, "name": "Dr.MAX",          "logo": "/images/brend-img/Group 1314947.png" },
+  { "id": 20, "name": "Edwin Jagger",    "logo": "/images/brend-img/Group 1314948.png" }
+]
